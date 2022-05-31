@@ -1,0 +1,32 @@
+.card {
+    margin-top: 2rem;
+    border: none;
+}
+.imgContainer {
+  margin-bottom: 3rem;
+}
+.cardimg {
+  width: 70%;
+}
+.cardTitle {
+  font-size: 2.7rem;
+  line-height: 2.8rem;
+  color: #3d2514;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+.cardText {
+  color: #3d2514;
+  font-weight: 400;
+  font-family: "Montserrat";
+  font-size: 1.1rem;
+}
+.cardbutton {
+    margin-top: 2rem;
+  padding: 0.5rem 3.5rem;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Alfa Slab One";
+  text-transform: uppercase;
+}

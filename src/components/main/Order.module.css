@@ -1,0 +1,33 @@
+.title {
+  text-transform: uppercase;
+  background-color: #ffc045;
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 1.1rem 3rem;
+  display: inline-block;
+  margin-bottom: 5rem;
+  color: #3d2514;
+}
+.header {
+  line-height: 3.8rem;
+  color: #3d2514;
+  font-weight: 700;
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-family: "Alfa Slab One";
+  margin-bottom: 5rem;
+  display: block;
+}
+@media (max-width : 550px){
+    .header{
+        font-size: 3rem;
+        line-height: 5rem;
+    }
+}
+.paragraph {
+  line-height: 29px;
+  color: #3d2514;
+  font-weight: 400;
+  font-family: "Montserrat";
+  font-size: 1.7rem;
+}

@@ -1,0 +1,61 @@
+.mainImg {
+  height: 65vh;
+  width: 79%;
+}
+
+.h5 {
+  text-transform: uppercase;
+  border: 2px dashed #6b4b24;
+  display: inline-block;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  position: relative;
+}
+.burger {
+  font-size: 11.4rem;
+  font-family: "Alfa Slab One";
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #3d2514;
+  filter: drop-shadow(0.3936rem 0.4528rem 0 #fee8bc);
+}
+.week {
+text-transform: uppercase;
+  font-size: 5.6rem;
+  line-height: 6.2rem;
+  color: #3d2514;
+  font-weight: 400;
+  font-family: "Alfa Slab One";
+  filter: drop-shadow(0.3936rem 0.4528rem 0 #fee8bc);
+}
+@media (max-width:900px) {
+  .burger{
+    font-size: 9rem;
+  }
+}
+@media (max-width : 550px) {
+    .burger {
+        font-size: 7rem;
+    }
+    .week{
+        font-size: 4rem;
+    }
+    .mainImg{
+        height: 50vh;
+    }
+}
+
+@media (max-width : 300px) {
+    .mainImg{
+        height: 20vh;
+    }
+}
+@media (max-width : 320px) {
+    .burger {font-size: 5rem;}
+    .week {font-size: 3rem;}
+    .mainImg{
+        height: 40vh;
+    }
+}
+

@@ -1,0 +1,56 @@
+.logo {
+  width: 55%;
+  margin-left: 15%;
+}
+.par {
+  line-height: 5rem;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 2.3rem;
+  font-family: "Montserrat";
+  margin: 10% 0 10% 17%;
+}
+.copy{
+    margin-left: 17%;
+}
+.row {
+  position: relative;
+  display: flex;
+  background-image: url("../header/assets/img/Image.svg");
+  height: auto;
+  color: white;
+  background-size: cover;
+  margin-bottom: 4rem;
+ 
+}
+
+.col2{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+
+.icons{
+    margin-left: 17%;
+    margin-bottom: 10%;
+
+}
+.icons1{
+    margin-bottom: 2rem;
+}
+@media (max-width:720px) {
+    .col2{
+        display: relative;
+        margin-top: 2rem;
+    }
+    .row{
+        height: auto;
+    }
+    .icons{
+        margin-left: 17%;
+        margin-top: 2rem;
+    }
+    .par{
+        font-size: 1.7rem;
+    }
+}

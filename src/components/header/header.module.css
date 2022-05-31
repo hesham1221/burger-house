@@ -1,0 +1,10 @@
+.header {
+    background-image: url('./assets/img/Rectangle.jpg');
+    height: 98%;
+    padding-bottom: 3rem;
+}
+@media (min-width : 790px) {
+    .header{
+        height: 98vh;
+    }
+}
